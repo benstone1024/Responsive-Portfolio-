@@ -1,0 +1,157 @@
+body{
+     background-image:url(../images/circles-dark.png);
+     margin:0;
+     padding:0;
+     font-family:Arial, Helvetica, sans-serif;
+ }
+
+ header{
+     background-color:white;
+     margin:0 auto;
+     width:100%;
+     border-bottom:2px solid lightgrey;
+     
+ }
+ .container::after{
+    content:"";
+    display:block;
+    clear:both;
+
+ }
+ .logo{
+     float:left;
+     background-color:#4aaaa5;
+     color:white;
+ }
+ nav{
+     float:right;
+     
+ }
+li{
+    float:right;
+    margin:10px;
+    color:lightgray;
+}
+.container{
+    width:960px;
+    margin:0 auto;
+}
+
+.box1{
+    background-color:white;
+    width:960px;
+    margin:0 auto;
+    margin-top:100px;
+    margin-bottom:100px;
+    padding:25px;
+    border:1px solid lightgrey;
+    color:#4aaaa5;
+    line-height:200%;
+
+    
+    }
+.header{
+    border-bottom:3px solid lightgrey
+}    
+
+  footer{
+    position:fixed;
+    left:0;
+    bottom:0;
+    width:100%;
+    background-color:#666666;
+    color:white;
+    text-align:center;
+    border-top:10px solid #4aaaa5;
+}
+span{
+    color:slategray;
+}
+.image{
+    float:left;
+    margin:10px;
+}
+.box2{
+    background-color:white;
+    width:960px;
+    margin:0 auto;
+    margin-top:100px;
+    margin-bottom:100px;
+    padding:25px;
+    border:1px solid lightgrey;
+    color:#4aaaa5;
+}
+.form{
+    margin:50px;
+    background-color: white;
+    color: lightgrey;
+    cursor: pointer;
+    width:80%;
+    height:375px;
+}
+input{
+    width: 90%;
+    height:30px;
+    margin:10px;
+}
+
+header a{
+    text-decoration:none;
+    color:lightgrey;
+}
+
+header ul{
+    margin:0;
+    padding:0;
+}
+
+header li{
+    display:inline;
+    padding:0 20px 0 20px;
+}
+
+label{
+    color:lightgrey;
+}
+
+input{
+    width:100%;
+}
+
+button {background-color:#4aaaa5;
+color: white;
+height: 30px;
+width:90px;
+line-height:200%;
+}
+
+.box3{
+    background-color:white;
+    width:960px;
+    margin:0 auto;
+    margin-top:100px;
+    margin-bottom:100px;
+    padding:25px;
+    border:1px solid lightgrey;
+    color:#4aaaa5;
+}
+
+.images{
+    margin-top:25px;
+    margin: 25px;
+    
+}
+
+
+
+
+@media screen and (max-width:640px){
+    body{
+            width:60%;}
+}
+@media screen and (max-width:768px){
+    body{width:75%;}
+}
+@media screen and (max-width:980px){
+    body {width:90%;}
+}
